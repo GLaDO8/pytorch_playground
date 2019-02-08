@@ -1,4 +1,5 @@
 #learning LSTM code for parts-of-speech tagging
+#main tutorial - https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html#sphx-glr-download-beginner-nlp-sequence-models-tutorial-py
 
 #LSTM unit in pytorch expects only 3D tensors. The dimensions are 
 #First dim = sequence
