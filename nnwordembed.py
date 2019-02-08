@@ -11,4 +11,3 @@ embeds = nn.Embedding(2, 5)  # 2 words in vocab, 5 dimensional embeddings
 lookup_tensor = torch.tensor([word_to_ix["hello"], word_to_ix["world"]], dtype=torch.long)
 hello_embed = embeds(lookup_tensor)
 print(hello_embed)
-# print(embeds)
